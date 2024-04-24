@@ -49,6 +49,23 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+#photoBox {
+  width: 800px;
+  height: 400px;
+  position: relative;
+}
+#imgHorse {
+  width: 120px;
+  position: absolute;
+}
+#imgTeaCat {
+  width: 250px;
+  top: 100px;
+  left: 250px;
+  position: absolute;
+}
+
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
