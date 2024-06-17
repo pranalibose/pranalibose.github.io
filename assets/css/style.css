@@ -374,8 +374,17 @@ section .container {
 # Events
 --------------------------------------------------------------*/
 
+.events-title {
+  font-weight: 700;
+  font-size: 26px;
+  color: #18d26e;
+}
+
 .card {
   height: 100%;
+}
+
+.card-body {
   color: #aaaaaa;
 }
 
@@ -394,7 +403,7 @@ section .container {
 
 .card-text {
   color: #666;
-  font-family: 'Georgia', serif;
+  font-family: "Poppins", sans-serif;;
   font-size: 1rem;
 }
 
