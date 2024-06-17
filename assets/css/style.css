@@ -374,6 +374,15 @@ section .container {
 # Events
 --------------------------------------------------------------*/
 
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
 .card-title {
   color: #333;
   font-family: 'Arial', sans-serif;
