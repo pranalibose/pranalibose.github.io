@@ -89,7 +89,7 @@
   <p>As a seasoned speaker and panelist, I've had the privilege of attending and contributing to various tech events over the past one year. From industry conferences to specialized meetups, these forums have been a valuable platform for me to share my insights, network with fellow professionals, and stay up-to-date with the latest trends and innovations in the field.</p>
   <div class="row">
     <div class="col-md-4 mb-4">
-      <div class="card">
+      <div class="card" data-bs-toggle="modal" data-bs-target="#imageModal" style="cursor: pointer;">
         <img src="assets/img/LangVision.jpeg" class="card-img-top" alt="Event 1">
         <div class="card-body">
           <h5 class="card-title">LangVision</h5>
@@ -277,6 +277,43 @@
     </div>
   </div>
 </div>
+
+
+<!-- Modal for Image Slider -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="imageModalLabel">LangVision Event Gallery</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="assets/img/LangVision.jpeg" class="d-block w-100" alt="Slide 1">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="assets/img/LangVision.jpeg" class="d-block w-100" alt="Slide 2">
+                      </div>
+                      <!-- <div class="carousel-item">
+                          <img src="assets/img/LangVision3.jpeg" class="d-block w-100" alt="Slide 3">
+                      </div> -->
+                  </div>
+                  <a class="carousel-control-prev" href="#imageCarousel" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#imageCarousel" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
 
 <!-- Include the necessary JavaScript files for Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
